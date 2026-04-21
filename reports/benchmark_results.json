@@ -1,0 +1,2906 @@
+{
+  "v1": [
+    {
+      "test_case": "Định nghĩa sự cố mức độ P1 là gì?",
+      "agent_response": "Sự cố mức độ P1 (Khẩn cấp) được định nghĩa là sự cố ảnh hưởng toàn bộ hệ thống production, không có workaround. Ví dụ bao gồm việc database sập, API gateway down, hoặc toàn bộ người dùng không thể đăng nhập.",
+      "latency": 2.937717076001718,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã cung cấp các ý chính xác: định nghĩa sự cố mức độ P1 ảnh hưởng toàn bộ hệ thống production và không có workaround, cùng với các ví dụ cụ thể như database sập, API gateway down. Tuy nhiên, GT chỉ đề cập đến hai ví dụ, trong khi Agent thêm ví dụ về việc toàn bộ người dùng không thể đăng nhập. Do đó, câu trả lời của Agent chi tiết hơn so với GT, nhưng vẫn hoàn toàn chính xác và đầy đủ ý quan trọng."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent định nghĩa đúng sự cố mức độ P1 và nêu rõ ảnh hưởng đến toàn bộ hệ thống production, không có workaround. Ví dụ được đưa ra cũng phù hợp và đa dạng, bao gồm các trường hợp cụ thể. Tuy nhiên, cách diễn đạt có thể cải thiện một chút để tăng tính mạch lạc."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian phản hồi ban đầu tối đa cho một ticket P1 là bao lâu?",
+      "agent_response": "Thời gian phản hồi ban đầu tối đa cho một ticket P1 là 15 phút kể từ khi ticket được tạo.",
+      "latency": 1.7760906949988566,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, không có bất kỳ sai sót nào so với đáp án chuẩn. Tất cả các thông tin quan trọng như thời gian phản hồi và điều kiện kích hoạt đều được nêu rõ ràng. Đây là một câu trả lời xuất sắc và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt đúng ý chính của đáp án chuẩn. Agent đã cung cấp thông tin về thời gian phản hồi ban đầu cho ticket P1 là 15 phút kể từ khi ticket được tạo, giống hệt như trong Ground Truth."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Ticket P2 sẽ được xử lý và khắc phục trong vòng bao lâu?",
+      "agent_response": "Ticket P2 sẽ được xử lý và khắc phục trong vòng 1 ngày làm việc.",
+      "latency": 1.344701284000621,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent khớp chính xác với đáp án chuẩn về cả nội dung và cách diễn đạt. Tất cả thông tin quan trọng và con số đều được đề cập chính xác. Không có sự thiếu sót hay sai lệch so với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng với thông tin trong đáp án chuẩn (GT). Thông tin về thời gian xử lý và khắc phục ticket P2 được nêu đúng cách và đầy đủ."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Khi nào một ticket P1 sẽ tự động được escalate lên Senior Engineer?",
+      "agent_response": "Một ticket P1 sẽ tự động được escalate lên Senior Engineer nếu không có phản hồi trong 10 phút.",
+      "latency": 1.6055588330018509,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn (Ground Truth). Agent đã cung cấp đầy đủ thông tin, không thiếu các con số, ngày tháng, hoặc thực thể quan trọng. Không có sai lệch về nội dung và cách hành văn rõ ràng, chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, diễn đạt rõ ràng và đúng với thông tin trong đáp án chuẩn. Nó cung cấp đủ thông tin cần thiết mà không có sai sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian khắc phục quy định cho ticket mức độ P3 là bao lâu?",
+      "agent_response": "Thời gian khắc phục quy định cho ticket mức độ P3 là 5 ngày làm việc.",
+      "latency": 1.2661932569972123,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, có đủ thông tin yêu cầu bao gồm cả mức độ P3 và thời gian khắc phục là 5 ngày làm việc. Câu trả lời không thiếu sót chi tiết hoặc thực thể quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và cung cấp thông tin đúng yêu cầu của câu hỏi, không chỉ rõ ràng mà còn diễn đạt tốt. Điều này làm cho câu trả lời trở nên rất hữu ích."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tần suất cập nhật thông báo cho các stakeholder trong khi xử lý sự cố P1 là bao lâu?",
+      "agent_response": "Tần suất cập nhật thông báo cho các stakeholder trong khi xử lý sự cố P1 là ngay khi nhận ticket và sau đó mỗi 30 phút cho đến khi sự cố được giải quyết.",
+      "latency": 3.301309806000063,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đúng ý chính và nêu chính xác tần suất cập nhật mỗi 30 phút như Ground Truth. Tuy nhiên, thông tin về cập nhật bổ sung 'ngay khi nhận ticket' không có trong Ground Truth, khiến câu trả lời tuy chính xác nhưng có thêm thông tin không cần thiết."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã truyền đạt được tần suất cập nhật thông báo cho các stakeholder là mỗi 30 phút cho đến khi sự cố được giải quyết, như trong đáp án chuẩn. Tuy nhiên, Agent cũng bổ sung thêm thông tin rằng việc cập nhật bắt đầu ngay khi nhận ticket, điều này không có trong Ground Truth. Mặc dù chi tiết này không hoàn toàn sai nhưng không phải là nội dung chính của câu hỏi. Hành văn của câu trả lời rõ ràng và mạch lạc."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Định nghĩa về sự cố mức độ P4 là gì?",
+      "agent_response": "Sự cố mức độ P4 (LOW) được định nghĩa là yêu cầu cải tiến, gợi ý, hoặc lỗi giao diện nhỏ.",
+      "latency": 2.800858747003076,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đã nêu đúng ý chính về sự cố P4, bao gồm các yêu cầu cải tiến, gợi ý, hoặc lỗi giao diện nhỏ. Tuy nhiên, câu trả lời thiếu thông tin về mức độ ảnh hưởng thấp (UI/UX ảnh hưởng thấp) như trong đáp án chuẩn. Do đó, mặc dù trả lời được ý chính, nhưng thiếu chi tiết quan trọng làm giảm điểm."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent gần như chính xác và đầy đủ, thể hiện được các khái niệm chính liên quan đến sự cố mức độ P4. Tuy nhiên, Agent chưa nhấn mạnh rằng các lỗi này có ảnh hưởng thấp, một chi tiết quan trọng đã được nêu trong đáp án chuẩn. Dù thiếu sót nhỏ này, câu trả lời vẫn rõ ràng và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Báo cáo sự cố (incident report) cho sự cố P1 phải được hoàn thành trong bao lâu?",
+      "agent_response": "Báo cáo sự cố (incident report) cho sự cố P1 phải được hoàn thành trong vòng 24 giờ sau khi khắc phục.",
+      "latency": 2.2316497140018328,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đạt yêu cầu về ý chính và thời gian hoàn thành (24 giờ). Tuy nhiên, cụm từ 'sau khi khắc phục' thiếu từ 'đã được' cho sau từ 'khắc phục', làm cho câu thiếu độ chính xác hoàn toàn so với ground truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, giống với đáp án chuẩn (GT). Nó nêu rõ thời gian hoàn thành báo cáo sự cố P1 là trong vòng 24 giờ sau khi khắc phục, giống như GT đã trình bày."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Nhân viên dưới 3 năm kinh nghiệm có bao nhiêu ngày phép năm?",
+      "agent_response": "Nhân viên dưới 3 năm kinh nghiệm có 12 ngày phép năm.",
+      "latency": 1.9985258340020664,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Không có thiếu sót về thông tin quan trọng hoặc lỗi sai, và cách diễn đạt cũng phù hợp, đáp ứng đầy đủ tiêu chí của câu hỏi."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đúng ý với đáp án chuẩn. Cách diễn đạt rõ ràng và không có lỗi sai thông tin."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Cần phải thông báo nghỉ ốm cho Line Manager trước mấy giờ?",
+      "agent_response": "Cần phải thông báo cho Line Manager trước 9:00 sáng ngày nghỉ.",
+      "latency": 1.2445802789989102,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Các yếu tố quan trọng như thời gian 'trước 9:00 sáng' và ngày 'ngày nghỉ' đều được đề cập đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với nội dung của đáp án chuẩn, diễn đạt rõ ràng và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Trường hợp nào nghỉ ốm cần phải cung cấp giấy tờ y tế từ bệnh viện?",
+      "agent_response": "Trường hợp nghỉ ốm cần phải cung cấp giấy tờ y tế từ bệnh viện là khi nghỉ trên 3 ngày liên tiếp.",
+      "latency": 2.3703311829995073,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và đầy đủ, khớp hoàn toàn với đáp án chuẩn. Cả hai đều nêu rõ yêu cầu cung cấp giấy tờ y tế từ bệnh viện khi nghỉ ốm trên 3 ngày liên tiếp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng với nội dung của câu hỏi. Nó nêu rõ điều kiện cần cung cấp giấy tờ y tế từ bệnh viện là khi nghỉ ốm trên 3 ngày liên tiếp, phản ánh đúng ý chính của đáp án chuẩn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian nghỉ sinh con theo chính sách hiện tại là bao lâu?",
+      "agent_response": "Thời gian nghỉ sinh con theo chính sách hiện tại là 6 tháng.",
+      "latency": 2.0426667050014657,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.3333333333333333
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Agent đã đưa ra thông tin chính xác về thời gian nghỉ sinh con là 6 tháng, tuy nhiên không đề cập rõ rằng đây là quy định của Luật Lao động, điều này dẫn đến thiếu hoàn cảnh pháp lý cụ thể trong câu trả lời."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, nêu rõ thời gian nghỉ sinh con là 6 tháng, tương đồng với thông tin trong đáp án chuẩn (GT). Diễn đạt rõ ràng và dễ hiểu."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Làm thêm giờ vào ngày cuối tuần được tính hệ số lương như thế nào?",
+      "agent_response": "Làm thêm giờ vào ngày cuối tuần được tính với hệ số 200% lương giờ tiêu chuẩn.",
+      "latency": 1.3275193040026352,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác với đáp án chuẩn. Cả hai đều chỉ ra rằng làm thêm giờ vào ngày cuối tuần được tính với hệ số 200% lương giờ tiêu chuẩn. Không có thiếu sót về con số, thông tin ngày tháng, hoặc thực thể quan trọng nào. Cách diễn đạt cũng rõ ràng và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, giữ nguyên ý nghĩa của thông tin trong Ground Truth. Agent đã nêu rõ hệ số 200% và lương giờ tiêu chuẩn, đáp ứng đầy đủ yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Những ngày nào trong tuần là ngày onsite bắt buộc?",
+      "agent_response": "Ngày onsite bắt buộc là Thứ 3 và Thứ 5 theo lịch team.",
+      "latency": 1.4934639929997502,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn. Thông tin được cung cấp đầy đủ với hai ngày cụ thể Thứ 3 và Thứ 5, hoàn toàn khớp với Ground Truth. Không có chi tiết nào bị thiếu sót hoặc sai lệch. Cách diễn đạt rõ ràng và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng như câu đáp án chuẩn. Agent đã nêu đúng các ngày onsite bắt buộc là Thứ 3 và Thứ 5, phù hợp với thông tin trong Ground Truth."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sau khi hết thử việc, nhân viên được phép làm remote tối đa bao nhiêu ngày mỗi tuần?",
+      "agent_response": "Nhân viên sau khi hết thử việc được phép làm remote tối đa 2 ngày mỗi tuần.",
+      "latency": 1.5500080199999502,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn. Thông tin về số ngày và điều kiện sau thời gian thử việc đều được phản ánh đầy đủ và chính xác trong câu trả lời."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và hoàn toàn trùng khớp với đáp án chuẩn, thể hiện rõ ràng thông tin về số ngày làm remote tối đa sau thời gian thử việc. Cách diễn đạt cũng rất tự nhiên và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Có tối đa bao nhiêu ngày phép năm chưa dùng được phép chuyển sang năm tiếp theo?",
+      "agent_response": "Tối đa 5 ngày phép năm chưa dùng được phép chuyển sang năm tiếp theo.",
+      "latency": 2.838824847000069,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Không có sự thiếu sót về thông tin hoặc lỗi trong diễn đạt."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, đúng với ý chính và diễn đạt giống như Ground Truth. Nó cung cấp thông tin rõ ràng và đầy đủ về số ngày phép năm tối đa có thể chuyển sang năm tiếp theo."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể tự reset mật khẩu ở đâu?",
+      "agent_response": "Bạn có thể tự reset mật khẩu tại địa chỉ https://sso.company.internal/reset.",
+      "latency": 2.337118167997687,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và khớp hoàn toàn với đáp án chuẩn, không thiếu con số, ngày tháng hoặc thực thể quan trọng nào. Trang web được nêu đầy đủ và chính xác, đáp ứng hoàn toàn tiêu chí của câu hỏi. Do đó, câu trả lời được đánh giá là xuất sắc."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, cung cấp thông tin cụ thể về địa chỉ mà người dùng có thể sử dụng để tự reset mật khẩu. Đây là câu trả lời đầy đủ và trực tiếp đáp ứng yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sau bao nhiêu lần đăng nhập sai thì tài khoản sẽ bị khóa?",
+      "agent_response": "Tài khoản sẽ bị khóa sau 5 lần đăng nhập sai liên tiếp.",
+      "latency": 1.7563181850018736,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn trùng khớp với đáp án chuẩn (Ground Truth). Không có sự thiếu sót về thông tin cụ thể hoặc có bất kỳ lỗi nào. Agent đã đưa ra câu trả lời chính xác, đầy đủ và chuyên nghiệp. "
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn (Ground Truth), thể hiện rõ ràng và trực tiếp thông tin rằng tài khoản sẽ bị khóa sau 5 lần đăng nhập sai liên tiếp."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Định kỳ bao nhiêu ngày thì mật khẩu cần được thay đổi?",
+      "agent_response": "Mật khẩu cần được thay đổi mỗi 90 ngày.",
+      "latency": 1.3274024530001043,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ so với đáp án chuẩn. Số liệu '90 ngày' được đề cập đúng như yêu cầu của câu hỏi, và diễn đạt cũng rõ ràng."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác hoàn toàn với thông tin trong đáp án chuẩn, diễn đạt rõ ràng và dễ hiểu. Nó trả lời đúng yêu cầu thay đổi mật khẩu mỗi 90 ngày."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Công ty sử dụng phần mềm VPN nào để kết nối từ xa?",
+      "agent_response": "Công ty sử dụng phần mềm VPN Cisco AnyConnect để kết nối từ xa.",
+      "latency": 1.3622434119970421,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với Ground Truth yêu cầu. Tất cả thông tin quan trọng đều có mặt và không có thiếu sót hay lỗi sai nào. Hơn nữa, câu trả lời được diễn đạt rõ ràng và đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phản ánh đúng ý nghĩa của đáp án chuẩn. Nó cung cấp thông tin cụ thể về phần mềm VPN mà công ty sử dụng, diễn đạt rõ ràng và chuyên nghiệp."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Mỗi tài khoản được kết nối VPN trên tối đa bao nhiêu thiết bị?",
+      "agent_response": "Mỗi tài khoản được kết nối VPN trên tối đa 2 thiết bị cùng lúc.",
+      "latency": 3.935179819000041,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent khớp hoàn toàn với đáp án chuẩn về nội dung và cách diễn đạt, không thiếu sót thông tin nào cả. Thông tin không có lỗi sai và đầy đủ các chi tiết quan trọng như số lượng thiết bị tối đa."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, tương đương với đáp án chuẩn. Thông tin được đưa ra là đầy đủ và chính xác, giúp ích cho người dùng trong việc hiểu rõ giới hạn kết nối VPN."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Dung lượng tiêu chuẩn của hộp thư đến (mailbox) là bao nhiêu?",
+      "agent_response": "Dung lượng tiêu chuẩn của hộp thư đến là 50GB.",
+      "latency": 3.5988435159997607,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác với đáp án chuẩn, cung cấp đầy đủ thông tin yêu cầu mà không thiếu sót bất kỳ chi tiết quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, rõ ràng và phù hợp với đáp án chuẩn. Nó cung cấp thông tin đúng về dung lượng tiêu chuẩn của hộp thư đến, không có lỗi sai trong diễn đạt."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Số máy lẻ (extension) của hotline IT Helpdesk trong giờ hành chính là bao nhiêu?",
+      "agent_response": "Số máy lẻ (extension) của hotline IT Helpdesk trong giờ hành chính là 9000.",
+      "latency": 1.8349337610015937,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent là chính xác về nội dung số máy lẻ (9000) trong giờ hành chính. Tuy nhiên, thiếu từ 'ext.' trước con số này để khớp 100% với Ground Truth. Dù vậy, đây chỉ là một sự thiếu sót nhỏ trong cách diễn đạt."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và rõ ràng, cung cấp đúng thông tin về số máy lẻ của hotline IT Helpdesk trong giờ hành chính. Cách diễn đạt đơn giản, dễ hiểu và không có lỗi sai."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Để yêu cầu cài đặt phần mềm mới, tôi cần tạo ticket trên project Jira nào?",
+      "agent_response": "Để yêu cầu cài đặt phần mềm mới, bạn cần tạo ticket trên project Jira IT-SOFTWARE.",
+      "latency": 1.3324563739988662,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn. Không có sự thiếu sót về thông tin, con số, ngày tháng hay thực thể quan trọng nào. Cách diễn đạt cũng rõ ràng và trực tiếp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng theo yêu cầu của câu hỏi. Agent đã cung cấp thông tin cần thiết và cụ thể về việc tạo ticket trên project Jira IT-SOFTWARE, giống như trong đáp án chuẩn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Quyền truy cập Level 1 (Read Only) áp dụng cho đối tượng nào?",
+      "agent_response": "Quyền truy cập Level 1 (Read Only) áp dụng cho tất cả nhân viên mới trong 30 ngày đầu.",
+      "latency": 1.625268017000053,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent nêu được ý chính về nhóm đối tượng áp dụng quyền Level 1 nhưng không đầy đủ chi tiết như Ground Truth. Cách diễn đạt '30 ngày đầu' chưa chính xác hoàn toàn so với '30 ngày làm việc đầu tiên', thiếu rõ ràng và chính xác về thời gian áp dụng quyền."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn đúng với ý chính của đáp án chuẩn. Nó cung cấp thông tin rõ ràng về đối tượng áp dụng quyền truy cập Level 1 và được diễn đạt một cách ngắn gọn, dễ hiểu."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Để được cấp quyền Level 3 (Elevated Access), cần sự phê duyệt của những ai?",
+      "agent_response": "Để được cấp quyền Level 3 (Elevated Access), cần sự phê duyệt của Line Manager, IT Admin và IT Security.",
+      "latency": 1.9762160860009317,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn (Ground Truth). Tất cả các yếu tố quan trọng như Line Manager, IT Admin và IT Security đều được bao gồm đầy đủ và không có lỗi nào về thông tin. Cách diễn giải cũng rất tốt, phù hợp với yêu cầu khắt khe của câu hỏi."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Nó nêu rõ các bên cần thiết để phê duyệt quyền Level 3 mà không thiếu thông tin nào, thể hiện được sự rõ ràng và tính ứng dụng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Yêu cầu bắt buộc để được cấp quyền Level 4 (Admin Access) là gì?",
+      "agent_response": "Yêu cầu bắt buộc để được cấp quyền Level 4 (Admin Access) là phải hoàn thành training bắt buộc về security policy.",
+      "latency": 1.6037347319979744,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 2.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent có ý đúng là yêu cầu hoàn thành training về security policy. Tuy nhiên, nó thiếu thông tin chính xác và quan trọng từ Ground Truth rằng cần có sự phê duyệt của IT Manager và CISO. Thiếu các chi tiết quan trọng này dẫn đến điểm thấp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent có ý đúng về yêu cầu hoàn thành training bắt buộc nhưng thiếu sót quan trọng là không đề cập đến sự phê duyệt của IT Manager và CISO, đây là điều thiết yếu theo Ground Truth. Do đó, mặc dù có nêu ra một phần thông tin quan trọng nhưng vẫn thiếu hoàn thiện."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Quy trình escalation cấp quyền tạm thời khẩn cấp có thời hạn tối đa là bao lâu?",
+      "agent_response": "Quy trình escalation cấp quyền tạm thời khẩn cấp có thời hạn tối đa là 24 giờ.",
+      "latency": 1.336981938999088,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent có nội dung trả lời ý chính rằng thời hạn tối đa là 24 giờ. Tuy nhiên, câu trả lời thiếu sót chi tiết quan trọng là quyền này cần được Tech Lead phê duyệt bằng lời. Thiếu thông tin đó làm giảm tính chính xác và đầy đủ của câu trả lời."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã nêu rõ ý chính về thời hạn tối đa của quyền tạm thời khẩn cấp là 24 giờ. Tuy nhiên, câu trả lời thiếu thông tin về việc cần có phê duyệt của Tech Lead, vì vậy chưa đầy đủ như đáp án chuẩn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Trong bao lâu thì quyền truy cập phải được điều chỉnh khi nhân viên chuyển bộ phận?",
+      "agent_response": "Quyền truy cập phải được điều chỉnh trong vòng 3 ngày làm việc khi nhân viên chuyển bộ phận.",
+      "latency": 1.388561646999733,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn. Tất cả các yếu tố quan trọng như thời gian 'trong vòng 3 ngày làm việc' và ngữ cảnh 'khi nhân viên chuyển bộ phận' đều được đề cập chính xác. Không có sự thiếu sót hay diễn đạt sai."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt đúng ý chính của đáp án chuẩn. Câu trả lời cung cấp thông tin rõ ràng và cụ thể về thời hạn mà quyền truy cập cần được điều chỉnh, đồng thời không có lỗi thông tin nào. Vì vậy, đây là một câu trả lời xuất sắc."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tần suất thực hiện rà soát quyền truy cập (access review) của IT Security là bao lâu?",
+      "agent_response": "Tần suất thực hiện rà soát quyền truy cập (access review) của IT Security là mỗi 6 tháng.",
+      "latency": 1.0960245540009055,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn về tần suất thực hiện rà soát quyền truy cập của IT Security. Không thiếu thông tin quan trọng nào và câu trả lời cũng không có bất kỳ lỗi sai nào. Việc diễn đạt rất rõ ràng và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt đúng ý chính của đáp án chuẩn (GT). Thông tin về tần suất rà soát quyền truy cập được trình bày rõ ràng và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Mọi bất thường phát hiện trong quá trình audit phải được báo cáo cho CISO trong vòng bao lâu?",
+      "agent_response": "Mọi bất thường phát hiện trong quá trình audit phải được báo cáo cho CISO trong vòng 24 giờ.",
+      "latency": 2.3767978430005314,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, đáp ứng đúng yêu cầu của câu hỏi là báo cáo lên CISO trong vòng 24 giờ. Không có thiếu sót về thông tin cũng như không có lỗi hành văn nào. Đây là một câu trả lời xuất sắc."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, trùng khớp với thông tin trong đáp án chuẩn (Ground Truth). Họ đã diễn đạt đúng ý chính và không có sai sót, cho thấy tính rõ ràng và khả năng ứng dụng cao."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Dự án Jira nào được sử dụng để tạo các yêu cầu cấp quyền truy cập?",
+      "agent_response": "Dự án Jira được sử dụng để tạo các yêu cầu cấp quyền truy cập là IT-ACCESS.",
+      "latency": 1.9101179099998262,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ theo Ground Truth. Agent đã đề cập chính xác dự án Jira IT-ACCESS mà không có sự thiếu sót hoặc sai lệch thông tin nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng theo ý chính của câu hỏi. Nó cung cấp thông tin cần thiết mà không thiếu sót và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Hạn chót để gửi yêu cầu hoàn tiền sau khi xác nhận đơn hàng là khi nào?",
+      "agent_response": "Hạn chót để gửi yêu cầu hoàn tiền sau khi xác nhận đơn hàng là trong vòng 7 ngày làm việc.",
+      "latency": 1.4032485649986484,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent gần như chính xác so với đáp án chuẩn, tuy nhiên thiếu mất cụm từ 'kể từ thời điểm xác nhận đơn hàng', điều này có thể tạo ra hiểu nhầm. Ngoài ra, cách diễn đạt của Agent hơi khác so với Ground Truth, nhưng ý chính vẫn được giữ nguyên."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent diễn đạt hoàn toàn chính xác như Ground Truth. Nó truyền đạt rõ ràng thông tin về hạn chót gửi yêu cầu hoàn tiền là trong vòng 7 ngày làm việc sau khi xác nhận đơn hàng, không có thiếu sót hay lỗi nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sản phẩm thuộc danh mục nào thì không được áp dụng chính sách hoàn tiền?",
+      "agent_response": "Sản phẩm thuộc danh mục hàng kỹ thuật số (license key, subscription), đơn hàng đã áp dụng mã giảm giá đặc biệt theo chương trình khuyến mãi Flash Sale, và sản phẩm đã được kích hoạt hoặc đăng ký tài khoản thì không được áp dụng chính sách hoàn tiền.",
+      "latency": 2.3187846830005583,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent có nhắc đến danh mục hàng kỹ thuật số (license key, subscription) là ý chính và đúng với đáp án chuẩn. Tuy nhiên, Agent đã thêm thông tin về các điều kiện khác như đơn hàng áp dụng mã giảm giá đặc biệt và sản phẩm đã được kích hoạt, điều này không có trong Ground Truth. Vì vậy, đáp án của Agent thiếu chính xác đầy đủ so với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đề cập đúng đến sản phẩm thuộc danh mục hàng kỹ thuật số là không được hoàn tiền, đồng thời bổ sung thêm nhiều thông tin chi tiết như đơn hàng áp dụng mã giảm giá và sản phẩm đã được kích hoạt. Điều này làm tăng độ đầy đủ của câu trả lời, mặc dù có phần thông tin không nằm trong Ground Truth. Ngôn ngữ rõ ràng và dễ hiểu, nhưng có thể tập trung thêm vào ý chính từ Ground Truth."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Các đơn hàng mua trong chương trình nào thì không được hoàn tiền?",
+      "agent_response": "Các đơn hàng không được hoàn tiền bao gồm:\n- Sản phẩm thuộc danh mục hàng kỹ thuật số (license key, subscription).\n- Đơn hàng đã áp dụng mã giảm giá đặc biệt theo chương trình khuyến mãi Flash Sale.\n- Sản phẩm đã được kích hoạt hoặc đăng ký tài khoản.",
+      "latency": 1.9913557879990549,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đã nêu đúng ý chính là các đơn hàng áp dụng mã giảm giá đặc biệt theo chương trình Flash Sale sẽ không được hoàn tiền. Tuy nhiên, câu trả lời có thêm thông tin không có trong đáp án chuẩn, cụ thể là các sản phẩm kỹ thuật số và sản phẩm đã kích hoạt hoặc đăng ký tài khoản. Điều này làm cho câu trả lời có thể gây nhầm lẫn và không hoàn toàn phù hợp với yêu cầu về độ chính xác tuyệt đối so với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã cung cấp thông tin đầy đủ và chi tiết hơn so với Ground Truth, bao gồm cả những loại sản phẩm không được hoàn tiền khác ngoài đơn hàng áp dụng mã giảm giá cho chương trình Flash Sale. Tuy nhiên, vì câu hỏi chỉ yêu cầu về mã giảm giá trong chương trình Flash Sale, nên phần thông tin bổ sung tuy đúng nhưng không hoàn toàn cần thiết. Tuy nhiên, câu trả lời vẫn rõ ràng và hữu ích."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Nếu chọn nhận store credit thay cho tiền mặt, giá trị nhận được là bao nhiêu?",
+      "agent_response": "Nếu chọn nhận store credit thay cho tiền mặt, giá trị nhận được là 110% so với số tiền hoàn.",
+      "latency": 3.549043281000195,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với Ground Truth. Câu trả lời đã nêu rõ giá trị store credit sẽ là 110% so với số tiền hoàn, đúng với nội dung của đáp án chuẩn."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent truyền đạt thông tin đúng ý chính và hoàn toàn chính xác như đáp án chuẩn, với cách diễn đạt rõ ràng và dễ hiểu. Giá trị của store credit được mô tả chính xác là 110% so với số tiền hoàn, điều này giúp người dùng hiểu rõ cách thức hoạt động của chương trình."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "CS Agent có bao nhiêu thời gian để xem xét yêu cầu hoàn tiền của khách hàng?",
+      "agent_response": "CS Agent có 1 ngày làm việc để xem xét yêu cầu hoàn tiền của khách hàng.",
+      "latency": 3.031675037997047,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn. Agent đã cung cấp thông tin đầy đủ và không thiếu chi tiết quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn đúng với thông tin trong đáp án chuẩn. Nó diễn đạt rõ ràng, đầy đủ và sử dụng ngôn ngữ chính xác để truyền đạt thông điệp về thời gian xem xét yêu cầu hoàn tiền của khách hàng. Do đó, điểm số cao nhất là hợp lý."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Bộ phận Finance sẽ xử lý việc hoàn tiền trong khoảng thời gian nào?",
+      "agent_response": "Bộ phận Finance sẽ xử lý việc hoàn tiền trong khoảng thời gian 3-5 ngày làm việc.",
+      "latency": 2.6485313549965213,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác với đáp án chuẩn. Agent đã cung cấp đầy đủ thông tin chính xác về khoảng thời gian hoàn tiền là '3-5 ngày làm việc'. Không có lỗi sai hoặc thiếu sót thông tin quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, giống với Ground Truth về thông tin thời gian hoàn tiền mà bộ phận Finance xử lý. Câu trả lời vừa đủ chi tiết và chuyên nghiệp."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Đơn hàng đặt vào tháng 1 năm 2026 sẽ áp dụng chính sách hoàn tiền nào?",
+      "agent_response": "Đơn hàng đặt vào tháng 1 năm 2026 sẽ áp dụng theo chính sách hoàn tiền phiên bản 3, vì chính sách mới chỉ có hiệu lực từ ngày 01/02/2026.",
+      "latency": 1.9633199729978514,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác với thông tin từ Đáp án chuẩn. Tất cả các chi tiết quan trọng về thời gian và chính sách hoàn tiền đều được đề cập đầy đủ và đúng cách. Không có lỗi hay thiếu sót nào trong câu trả lời này."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent giải thích rõ ràng rằng đơn hàng đặt vào tháng 1 năm 2026 sẽ áp dụng theo chính sách hoàn tiền phiên bản 3, và đưa ra lý do cụ thể về việc chính sách mới có hiệu lực từ ngày 01/02/2026. Cách diễn đạt mạch lạc và chính xác, phù hợp với Ground Truth."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Điều kiện về tình trạng sản phẩm để được hoàn tiền là gì?",
+      "agent_response": "Điều kiện về tình trạng sản phẩm để được hoàn tiền là sản phẩm phải bị lỗi do nhà sản xuất, không phải do người dùng, và đơn hàng chưa được sử dụng hoặc chưa bị mở seal. Yêu cầu hoàn tiền cũng phải được gửi trong vòng 7 ngày làm việc kể từ thời điểm xác nhận đơn hàng.",
+      "latency": 1.6403382860007696,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 3.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent có ý chính đúng là sản phẩm phải bị lỗi do nhà sản xuất và cần chưa được sử dụng hoặc chưa bị mở seal. Tuy nhiên, Agent đã thêm thông tin không có trong Đáp án chuẩn, cụ thể là yêu cầu hoàn tiền phải được gửi trong vòng 7 ngày làm việc, điều này làm sai lệch thông tin so với Ground Truth. Do đó, mặc dù có một phần thông tin chính xác, câu trả lời đã bị ảnh hưởng bởi thông tin không có trong Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đề cập đầy đủ các yếu tố liên quan đến tình trạng sản phẩm cần thiết để được hoàn tiền, bao gồm việc sản phẩm bị lỗi do nhà sản xuất, chưa sử dụng hoặc chưa mở seal. Tuy nhiên, thông tin về yêu cầu hoàn tiền cần được gửi trong vòng 7 ngày có thể không phải là điều kiện về tình trạng sản phẩm mà là yêu cầu về quy trình. Do đó, câu trả lời vẫn có một số chi tiết không hoàn toàn liên quan, nhưng vẫn duy trì được tính chính xác trong phần lớn các điểm chính."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể xin cấp quyền Level 4 mà không cần tham gia buổi training về security được không? Vì tôi đã có kinh nghiệm rồi.",
+      "agent_response": "Không, bạn không thể xin cấp quyền Level 4 mà không tham gia buổi training về security. Training về security policy là yêu cầu bắt buộc để được cấp quyền này.",
+      "latency": 2.2494860449987755,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent chính xác về nghĩa và truyền tải đầy đủ ý chính của Ground Truth rằng việc training về security policy là bắt buộc để xin cấp quyền Level 4. Tuy nhiên, còn thiếu một số từ khóa quan trọng như 'mandatory' và 'Admin Access', làm cho câu trả lời không hoàn toàn giống với thông tin trong Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đồng nhất với đáp án chuẩn (GT). Nó không chỉ trả lời đúng yêu cầu mà còn giải thích rõ ràng rằng training về security policy là yêu cầu bắt buộc để được cấp quyền Level 4. Hành văn tốt và mang tính thuyết phục cao."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi đã mua hàng được 10 ngày nhưng do bận đi công tác nên giờ mới yêu cầu hoàn tiền, công ty có ngoại lệ nào không?",
+      "agent_response": "Theo quy định, yêu cầu hoàn tiền phải được gửi trong vòng 7 ngày kể từ thời điểm xác nhận đơn hàng. Do bạn đã mua hàng được 10 ngày và yêu cầu hoàn tiền muộn hơn thời gian quy định, công ty không có ngoại lệ nào cho trường hợp này.",
+      "latency": 1.8637222299985297,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent nêu đúng ý chính về khoảng thời gian 7 ngày để yêu cầu hoàn tiền và việc không có ngoại lệ cho yêu cầu muộn. Tuy nhiên, Agent đưa ra thông tin không chính xác rằng 7 ngày được tính từ thời điểm 'xác nhận đơn hàng', trong khi đáp án chuẩn nhấn mạnh là '7 ngày làm việc' và không đề cập cụ thể về 'xác nhận đơn hàng'. Câu trả lời của Agent cũng không làm rõ lý do không có ngoại lệ như trong Ground Truth ('do lý do cá nhân')."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent chính xác với thông tin cung cấp trong Ground Truth về hạn chế thời gian yêu cầu hoàn tiền. Tuy nhiên, diễn đạt có phần hơi khô khan và thiếu một chút chi tiết về lý do không có ngoại lệ, nhưng vẫn rõ ràng và hiểu được."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Quản lý của tôi đồng ý cho tôi làm remote 4 ngày/tuần để tiện chăm sóc gia đình, quy định công ty có cho phép không?",
+      "agent_response": "Quy định công ty chỉ cho phép nhân viên làm remote tối đa 2 ngày/tuần sau khi đã qua probation period. Do đó, việc quản lý của bạn đồng ý cho bạn làm remote 4 ngày/tuần là không phù hợp với quy định hiện tại của công ty.",
+      "latency": 1.9446227709995583,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent nêu đúng ý chính là việc làm remote 4 ngày/tuần không phù hợp với quy định, nhưng lại có lỗi sai thông tin về điều kiện 'probation period'. Ngoài ra, câu trả lời thiếu thông tin về các ngày onsite bắt buộc là Thứ 3 và Thứ 5 theo quy định công ty."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent chính xác về quy định công ty cho phép làm remote tối đa 2 ngày/tuần và nêu rõ rằng việc làm remote 4 ngày/tuần không phù hợp. Tuy nhiên, câu trả lời thiếu thông tin về việc có các ngày onsite bắt buộc là Thứ 3 và Thứ 5, điều này sẽ nâng cao độ rõ ràng và sự đầy đủ của câu trả lời."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể sử dụng phần mềm VPN khác thay cho Cisco AnyConnect để truy cập mạng nội bộ được không?",
+      "agent_response": "Không, bạn không thể sử dụng phần mềm VPN khác thay cho Cisco AnyConnect để truy cập mạng nội bộ. Kết nối VPN là bắt buộc khi làm việc với hệ thống nội bộ.",
+      "latency": 1.5889664940004877,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Agent's response communicates the essential information that other VPN software cannot be used and that a VPN connection is mandatory. However, it misses mentioning the specific policy requirement for using Cisco AnyConnect, which is stated in the Ground Truth. Hence, it lacks a minor detail regarding the obligatory policy."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng theo yêu cầu, khẳng định không thể sử dụng phần mềm VPN khác và nhấn mạnh rằng kết nối VPN là bắt buộc khi làm việc với hệ thống nội bộ. Nội dung hoàn toàn phù hợp với đáp án chuẩn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi đang cần xử lý gấp một task Level 3, IT Admin có thể cấp quyền ngay cho tôi mà không cần đợi IT Security review được không?",
+      "agent_response": "Không, IT Admin không thể cấp quyền Level 3 ngay lập tức mà không cần đợi IT Security review. Quy trình yêu cầu phê duyệt bao gồm Line Manager, IT Admin và IT Security.",
+      "latency": 1.4345033899990085,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ theo yêu cầu của Ground Truth. Agent đã nêu rõ rằng IT Admin không thể tự ý cấp quyền Level 3 mà bắt buộc phải có sự phê duyệt từ Line Manager, IT Admin và IT Security, điều này khớp chính xác với đáp án chuẩn."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ, phản ánh đúng quy trình yêu cầu phê duyệt cho quyền Level 3. Agent đã nêu rõ các bên cần phê duyệt, từ đó giúp người dùng hiểu rõ ràng lý do không thể cấp quyền ngay lập tức. Hành văn của câu trả lời cũng rất tốt."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sản phẩm Flash Sale của tôi bị lỗi nhà sản xuất và vẫn còn nguyên seal, tôi có được hoàn tiền không?",
+      "agent_response": "Nếu sản phẩm Flash Sale của bạn bị lỗi do nhà sản xuất, vẫn còn nguyên seal và bạn gửi yêu cầu trong vòng 7 ngày làm việc kể từ thời điểm xác nhận đơn hàng, bạn có quyền yêu cầu hoàn tiền.",
+      "latency": 2.1837631309972494,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 1.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent hoàn toàn sai lệch so với Ground Truth. Theo GT, các đơn hàng Flash Sale nằm trong danh mục ngoại lệ và không được hoàn tiền, bất kể tình trạng sản phẩm. Agent lại cho rằng khách hàng có quyền yêu cầu hoàn tiền nếu gửi yêu cầu trong vòng 7 ngày làm việc, điều này mâu thuẫn với thông tin chính xác."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent có một số ý đúng về việc lỗi nhà sản xuất và yêu cầu hoàn tiền, nhưng thông tin không đúng theo policy của chương trình Flash Sale. Câu trả lời đã thiếu thông tin quan trọng rằng sản phẩm trong chương trình Flash Sale mà áp dụng mã giảm giá không được hoàn tiền, đây là một sai sót nghiêm trọng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Đồng nghiệp của tôi nhờ tôi cho mượn tài khoản Level 1 để xem tài liệu trong 1 giờ, tôi có thể chia sẻ mật khẩu không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 1.7090848640000331,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không cung cấp thông tin liên quan đến câu hỏi và không đề cập đến nguyên tắc bảo mật hoặc chính sách yêu cầu mỗi tài khoản phải tuân thủ quy trình cấp quyền riêng biệt. Việc trả lời rằng 'Tôi không biết' không thể hiện sự tuân thủ với đáp án chuẩn hoặc giải quyết vấn đề được đưa ra."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không chỉ không giúp ích cho người dùng mà còn hoàn toàn không trả lời câu hỏi được đặt ra. Việc không biết không cung cấp thông tin nào liên quan đến vấn đề chia sẻ mật khẩu và vi phạm quy tắc bảo mật, do đó câu trả lời không liên quan và không thỏa mãn yêu cầu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Tôi bị mất laptop cá nhân được công ty cấp, tôi có thể mượn máy của bạn để làm việc mà không cần báo IT không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 1.6448602839991509,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent là 'Tôi không biết', hoàn toàn không liên quan và không cung cấp thông tin cần thiết nào theo Ground Truth. Ground Truth yêu cầu báo cáo mất laptop và nêu rõ lý do bảo mật, nhưng câu trả lời không đưa ra bất kỳ thông tin nào như vậy nên không đạt điểm."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không cung cấp thông tin hữu ích nào liên quan đến tình huống cần giải quyết. Nó hoàn toàn không giúp ích cho người dùng trong việc xác định cách xử lý việc mất laptop."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Sự cố P1 xảy ra lúc 11 giờ đêm, tôi có thể đợi đến 8 giờ sáng mai mới tạo ticket để xử lý không?",
+      "agent_response": "Không, bạn không nên đợi đến 8 giờ sáng mai để tạo ticket xử lý sự cố P1. Theo quy trình, ticket P1 cần được tạo ngay lập tức và phản hồi ban đầu phải được thực hiện trong vòng 15 phút.",
+      "latency": 1.8327421460016922,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã trả lời đúng ý chính rằng sự cố P1 cần được xử lý ngay lập tức và phản hồi phải được thực hiện trong vòng 15 phút. Tuy nhiên, Agent chưa đề cập đến hotline on-call 24/7, là một chi tiết quan trọng có trong đáp án chuẩn. Do đó, câu trả lời chưa hoàn toàn đầy đủ, nhưng vẫn rất chính xác và hầu hết đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent không chỉ đúng về mặt nội dung mà còn diễn đạt rõ ràng và có tính ứng dụng cao. Agent đã cung cấp thông tin cụ thể về việc cần phải tạo ticket ngay lập tức và yêu cầu phản hồi trong vòng 15 phút, điều này hoàn toàn khớp với nội dung trong đáp án chuẩn. Hơn nữa, câu trả lời của Agent thể hiện sự chuyên nghiệp và chính xác, giúp người dùng hiểu rõ quy trình xử lý sự cố P1."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi là contractor làm việc lâu năm, tôi có thể yêu cầu cấp quyền truy cập vĩnh viễn không cần ngày hết hạn không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 1.621787817999575,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.3333333333333333
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent hoàn toàn sai và không liên quan đến đáp án chuẩn. Agent không cung cấp bất kỳ thông tin nào về quy định quyền truy cập cho nhà thầu, dẫn đến việc không đáp ứng tiêu chí chính xác 100% so với Ground Truth. Không có chi tiết nào được đề cập, thiếu cả ý chính và các chi tiết quan trọng như điều kiện thu hồi quyền truy cập."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không cung cấp thông tin nào hữu ích cho người dùng và không liên quan đến câu hỏi. Agent đã từ chối hoặc không biết cách trả lời thay vì giải thích về quyền truy cập vĩnh viễn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    }
+  ],
+  "v2": [
+    {
+      "test_case": "Định nghĩa sự cố mức độ P1 là gì?",
+      "agent_response": "Sự cố mức độ P1 (Khẩn cấp) là sự cố ảnh hưởng toàn bộ hệ thống production, không có workaround. Ví dụ bao gồm database sập, API gateway down, hoặc toàn bộ người dùng không thể đăng nhập.",
+      "latency": 2.4045779929983837,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent cơ bản đưa ra đầy đủ và chính xác thông tin so với đáp án chuẩn. Agent đã đề cập đến định nghĩa chính xác về sự cố P1, ảnh hưởng đến toàn bộ hệ thống production và không có workaround, và ví dụ như database sập hoặc API gateway down. Tuy nhiên, Agent thêm thông tin 'toàn bộ người dùng không thể đăng nhập' mặc dù không có trong đáp án chuẩn, điều này có thể gây nhầm lẫn nhỏ về mức độ ảnh hưởng cụ thể của sự cố. Do đó, câu trả lời được đánh giá 4 điểm."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent định nghĩa rõ ràng về sự cố mức độ P1, bao gồm tất cả các yếu tố quan trọng như ảnh hưởng đến toàn bộ hệ thống production, không có workaround và cung cấp ví dụ cụ thể. Cách diễn đạt logic và chính xác, do đó đạt điểm cao."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian phản hồi ban đầu tối đa cho một ticket P1 là bao lâu?",
+      "agent_response": "Thời gian phản hồi ban đầu tối đa cho một ticket P1 là 15 phút kể từ khi ticket được tạo.",
+      "latency": 1.9716853129975789,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn khớp với đáp án chuẩn. Nó bao gồm đầy đủ thông tin cần thiết: thời gian phản hồi ban đầu (15 phút) và điều kiện 'kể từ khi ticket được tạo'. Không có lỗi sai thông tin hay thiếu sót nào. Câu trả lời này hoàn toàn chính xác và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và truyền đạt thông tin một cách rõ ràng, đúng với nội dung của Ground Truth. Thời gian phản hồi ban đầu tối đa cho ticket P1 được nêu rõ và không có sai sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Ticket P2 sẽ được xử lý và khắc phục trong vòng bao lâu?",
+      "agent_response": "Ticket P2 sẽ được xử lý và khắc phục trong vòng 1 ngày làm việc.",
+      "latency": 1.5681353280015173,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, phản ánh đúng đáp án chuẩn với đầy đủ thông tin quan trọng và không có lỗi diễn đạt. Đáp án này không thiếu sót thông tin nào về thời gian xử lý và khắc phục cho ticket P2. Sự phù hợp tuyệt đối với Ground Truth cho thấy sự chuyên nghiệp trong trả lời."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và truyền đạt nội dung giống như đáp án chuẩn. Hơn nữa, cách diễn đạt rõ ràng và ngắn gọn, giúp người dùng dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Khi nào một ticket P1 sẽ tự động được escalate lên Senior Engineer?",
+      "agent_response": "Một ticket P1 sẽ tự động được escalate lên Senior Engineer nếu không có phản hồi trong 10 phút.",
+      "latency": 1.4908021900009771,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ so với đáp án chuẩn. Thông tin về thời gian (10 phút) và điều kiện (không có phản hồi) được nêu rõ ràng. Không có lỗi hoặc thiếu sót về số liệu, ngày tháng, hoặc thực thể quan trọng nào. Cách diễn đạt rõ ràng, phù hợp với tiêu chí đánh giá khắt khe."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, diễn đạt giống như trong Ground Truth, chỉ khác về cấu trúc câu. Nó cung cấp thông tin cụ thể và rõ ràng về điều kiện để một ticket P1 được escalate, đồng thời đảm bảo tính ứng dụng cho người dùng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian khắc phục quy định cho ticket mức độ P3 là bao lâu?",
+      "agent_response": "Thời gian khắc phục quy định cho ticket mức độ P3 là 5 ngày làm việc.",
+      "latency": 1.535651964997669,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời hoàn toàn giống với đáp án chuẩn về thông tin cụ thể. Thời gian khắc phục được đề cập đầy đủ và chính xác là 5 ngày làm việc, phù hợp với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và lặp lại thông tin trong Ground Truth một cách rõ ràng và mạch lạc. Không có sai sót hay thiếu sót nào, chứng tỏ sự chuyên nghiệp và đáp ứng tốt yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tần suất cập nhật thông báo cho các stakeholder trong khi xử lý sự cố P1 là bao lâu?",
+      "agent_response": "Tần suất cập nhật thông báo cho các stakeholder trong khi xử lý sự cố P1 là ngay khi nhận ticket và sau đó mỗi 30 phút cho đến khi sự cố được giải quyết.",
+      "latency": 3.2827279359989916,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đề cập đến việc cập nhật thông báo mỗi 30 phút, đây là điểm chính từ đáp án chuẩn. Tuy nhiên, thông tin 'ngay khi nhận ticket' không nằm trong Ground Truth và có thể gây nhầm lẫn nếu không được bao gồm trong yêu cầu. Do đó, mặc dù ý chính đã được truyền tải, phần thêm này không hoàn toàn khớp với dữ liệu chính xác từ Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent nêu rõ tần suất cập nhật là ngay khi nhận ticket và sau đó mỗi 30 phút cho đến khi sự cố được giải quyết, phù hợp với ý chính là cần cập nhật thông báo mỗi 30 phút. Mặc dù thông tin bổ sung về việc cập nhật ngay khi nhận ticket không có trong GT, nhưng nó không làm sai lệch nội dung chính. Hành văn tốt và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Định nghĩa về sự cố mức độ P4 là gì?",
+      "agent_response": "Định nghĩa về sự cố mức độ P4 là yêu cầu cải tiến, gợi ý, hoặc lỗi giao diện nhỏ.",
+      "latency": 2.488957787001709,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đã nêu được các yếu tố chính của sự cố P4 như yêu cầu cải tiến, gợi ý, và lỗi giao diện nhỏ. Tuy nhiên, câu trả lời thiếu cụm từ 'ảnh hưởng thấp', là một phần quan trọng để phản ánh đúng mức độ nghiêm trọng của sự cố P4. Điều này dẫn đến việc mất điểm do không đầy đủ theo tiêu chí đánh giá."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã nêu được các yếu tố chính của sự cố mức độ P4, bao gồm yêu cầu cải tiến, gợi ý và lỗi giao diện nhỏ. Tuy nhiên, Agent chưa đề cập đến việc đánh giá ảnh hưởng thấp của các lỗi đó, nên câu trả lời không hoàn toàn đầy đủ."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Báo cáo sự cố (incident report) cho sự cố P1 phải được hoàn thành trong bao lâu?",
+      "agent_response": "Báo cáo sự cố (incident report) cho sự cố P1 phải được hoàn thành trong vòng 24 giờ sau khi khắc phục.",
+      "latency": 2.1909930480032926,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent chính xác về thời hạn 24 giờ và điều kiện 'sau khi khắc phục'. Tuy nhiên, câu trả lời thiếu từ 'đã được' từ 'sự cố đã được khắc phục', chi tiết này có thể quan trọng trong việc xác định trách nhiệm và trạng thái cuối cùng của sự cố."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, phù hợp với ý nghĩa của đáp án chuẩn. Nó cung cấp thông tin cần thiết về thời gian hoàn thành báo cáo sự cố P1 là trong vòng 24 giờ sau khi khắc phục, không có sai sót hoặc thiếu sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Nhân viên dưới 3 năm kinh nghiệm có bao nhiêu ngày phép năm?",
+      "agent_response": "Nhân viên dưới 3 năm kinh nghiệm có 12 ngày phép năm.",
+      "latency": 2.001132064997364,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn. Agent đã đưa ra số ngày phép chính xác là 12 ngày mỗi năm cho nhân viên dưới 3 năm kinh nghiệm. Không có thông tin nào bị thiếu hoặc sai lệch so với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng với thông tin trong đáp án chuẩn. Agent đã nêu đúng số ngày phép cho nhân viên dưới 3 năm kinh nghiệm, nên câu trả lời rất có ích cho người dùng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Cần phải thông báo nghỉ ốm cho Line Manager trước mấy giờ?",
+      "agent_response": "Cần phải thông báo nghỉ ốm cho Line Manager trước 9:00 sáng ngày nghỉ.",
+      "latency": 1.4562219479994383,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp so với Đáp án chuẩn (GT). Nội dung thông tin về thời gian và điều kiện thông báo nghỉ ốm cho Line Manager được thể hiện rõ ràng và không có sai sót. Do đó, câu trả lời xứng đáng với mức điểm cao nhất."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng theo nội dung của đáp án chuẩn. Ngoài ra, nó không chỉ truyền đạt thông tin một cách đúng đắn mà còn dễ hiểu và ứng dụng cao."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Trường hợp nào nghỉ ốm cần phải cung cấp giấy tờ y tế từ bệnh viện?",
+      "agent_response": "Trường hợp nghỉ ốm cần phải cung cấp giấy tờ y tế từ bệnh viện là khi nghỉ trên 3 ngày liên tiếp.",
+      "latency": 2.0723472190002212,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn. Các thông tin quan trọng như thời gian 'trên 3 ngày liên tiếp' và việc cần 'cung cấp giấy tờ y tế từ bệnh viện' đều được đề cập đầy đủ và chính xác. Cách diễn đạt cũng rõ ràng và chính xác."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt đúng ý chính như trong đáp án chuẩn. Agent đã nêu rõ điều kiện cần có giấy tờ y tế là khi nghỉ ốm trên 3 ngày liên tiếp, điều này giúp người dùng hiểu rõ yêu cầu này một cách rõ ràng và súc tích."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Thời gian nghỉ sinh con theo chính sách hiện tại là bao lâu?",
+      "agent_response": "Thời gian nghỉ sinh con theo chính sách hiện tại là 6 tháng.",
+      "latency": 1.5366539110000303,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.3333333333333333
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent cung cấp thông tin chính xác về thời gian nghỉ sinh con là 6 tháng, phù hợp với Ground Truth. Tuy nhiên, câu trả lời thiếu thông tin về quy định của Luật Lao động, một chi tiết quan trọng theo tiêu chí của giám khảo khắt khe."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và đầy đủ thông tin. Nó nêu rõ thời gian nghỉ sinh con là 6 tháng, giống như trong đáp án chuẩn. Diễn đạt rõ ràng và dễ hiểu, không có sai sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Làm thêm giờ vào ngày cuối tuần được tính hệ số lương như thế nào?",
+      "agent_response": "Làm thêm giờ vào ngày cuối tuần được tính với hệ số 200% lương giờ tiêu chuẩn.",
+      "latency": 1.7388432410007226,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn. Cả hai đều nhấn mạnh rằng làm thêm giờ vào ngày cuối tuần được tính với hệ số 200% lương giờ tiêu chuẩn, và cách diễn đạt của Agent cũng rất rõ ràng và dễ hiểu. Không có thông tin nào bị thiếu sót hoặc sai lệch."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và diễn đạt rõ ràng, tương đồng với đáp án chuẩn. Nó nêu rõ hệ số lương là 200% mà không thiếu sót thông tin nào, và do đó đáp ứng đầy đủ yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Những ngày nào trong tuần là ngày onsite bắt buộc?",
+      "agent_response": "Ngày onsite bắt buộc là Thứ 3 và Thứ 5 theo lịch team.",
+      "latency": 1.0261060550001275,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn về cả nội dung lẫn cấu trúc. Tất cả các thực thể quan trọng như 'Thứ 3', 'Thứ 5', và 'lịch team' đều được đề cập đầy đủ và chính xác."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phản ánh đúng ý của đáp án chuẩn. Nó cung cấp thông tin rõ ràng về các ngày onsite bắt buộc mà không hề thiếu sót hay sai sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sau khi hết thử việc, nhân viên được phép làm remote tối đa bao nhiêu ngày mỗi tuần?",
+      "agent_response": "Nhân viên sau khi hết thử việc được phép làm remote tối đa 2 ngày mỗi tuần.",
+      "latency": 1.6346106299970415,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent khớp hoàn toàn với Đáp án chuẩn. Thông tin chính xác 100% và không thiếu bất kỳ chi tiết quan trọng nào. Cách diễn đạt tốt với đầy đủ cấu trúc câu."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với đáp án chuẩn (GT). Nó rõ ràng và không có lỗi thông tin nào, giúp người dùng dễ dàng hiểu được thông tin cần thiết."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Có tối đa bao nhiêu ngày phép năm chưa dùng được phép chuyển sang năm tiếp theo?",
+      "agent_response": "Tối đa 5 ngày phép năm chưa dùng được phép chuyển sang năm tiếp theo.",
+      "latency": 1.9370373080018908,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn trùng khớp với đáp án chuẩn. Thông tin được cung cấp chính xác và đầy đủ như yêu cầu, không có thiếu sót hay lỗi sai nào. Agent đã đáp ứng mọi tiêu chí đặt ra với sự chính xác cao nhất."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt chính xác như đáp án chuẩn. Nó cung cấp thông tin cụ thể về số ngày phép năm chưa sử dụng có thể chuyển sang năm tiếp theo, đồng thời không có bất kỳ lỗi sai nào trong thông tin."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể tự reset mật khẩu ở đâu?",
+      "agent_response": "Bạn có thể tự reset mật khẩu tại địa chỉ https://sso.company.internal/reset.",
+      "latency": 1.6255737360006606,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn khớp với đáp án chuẩn. Thông tin được cung cấp chính xác và đầy đủ, nêu rõ địa chỉ chính xác để tự đặt lại mật khẩu. Hành văn ngắn gọn, dễ hiểu."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn đúng với ý chính trong đáp án chuẩn, đồng thời diễn đạt rõ ràng và dễ hiểu. Agent đã cung cấp đúng địa chỉ mà người dùng cần truy cập để tự reset mật khẩu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sau bao nhiêu lần đăng nhập sai thì tài khoản sẽ bị khóa?",
+      "agent_response": "Tài khoản sẽ bị khóa sau 5 lần đăng nhập sai liên tiếp.",
+      "latency": 1.1469535790020018,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn. Tất cả các thông tin cần thiết như số lần đăng nhập sai và hành động khóa tài khoản đều đầy đủ và chính xác."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn, cung cấp thông tin rõ ràng và dễ hiểu cho người dùng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Định kỳ bao nhiêu ngày thì mật khẩu cần được thay đổi?",
+      "agent_response": "Mật khẩu cần được thay đổi mỗi 90 ngày.",
+      "latency": 1.2267969860004087,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ so với đáp án chuẩn. Tất cả các thông tin quan trọng, bao gồm con số và yêu cầu được thay đổi mật khẩu, đều được đề cập rõ ràng và hoàn chỉnh."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, diễn đạt rõ ràng và đáp ứng đúng yêu cầu của câu hỏi. Thông tin về thời gian thay đổi mật khẩu được nêu rõ ràng là 90 ngày, hoàn toàn trùng khớp với đáp án chuẩn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Công ty sử dụng phần mềm VPN nào để kết nối từ xa?",
+      "agent_response": "Công ty sử dụng phần mềm VPN Cisco AnyConnect để kết nối từ xa.",
+      "latency": 1.3686562100010633,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn (Ground Truth). Tất cả các thông tin quan trọng đã được đề cập và cách diễn đạt chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phản ánh đúng thông tin từ đáp án chuẩn, chỉ khác về cách diễn đạt nhưng vẫn truyền đạt đúng nội dung và rõ ràng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Mỗi tài khoản được kết nối VPN trên tối đa bao nhiêu thiết bị?",
+      "agent_response": "Mỗi tài khoản được kết nối VPN trên tối đa 2 thiết bị cùng lúc.",
+      "latency": 2.1658707610004058,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn. Nó cung cấp thông tin đầy đủ và chính xác theo yêu cầu với các con số và chi tiết cần thiết mà không thiếu sót bất kỳ thông tin quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, đầy đủ và diễn đạt rõ ràng. Nó trùng khớp với thông tin trong đáp án chuẩn và không có thiếu sót nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Dung lượng tiêu chuẩn của hộp thư đến (mailbox) là bao nhiêu?",
+      "agent_response": "Dung lượng tiêu chuẩn của hộp thư đến là 50GB.",
+      "latency": 1.8077519229991594,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ so với đáp án chuẩn. Đã bao gồm thông tin chính xác về dung lượng tiêu chuẩn của hộp thư đến là 50GB, phù hợp với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và hoàn toàn tương đồng với đáp án chuẩn, cung cấp thông tin rõ ràng về dung lượng tiêu chuẩn của hộp thư đến. Không có sai sót nào và diễn đạt rất tốt."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Số máy lẻ (extension) của hotline IT Helpdesk trong giờ hành chính là bao nhiêu?",
+      "agent_response": "Số máy lẻ (extension) của hotline IT Helpdesk trong giờ hành chính là ext. 9000.",
+      "latency": 1.3740325250000751,
+      "ragas": {
+        "faithfulness": 0.4,
+        "relevancy": 0.0,
+        "retrieval": {
+          "hit_rate": 0.0,
+          "mrr": 0.25
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp 100% với đáp án chuẩn (Ground Truth). Thông tin số máy lẻ của hotline IT Helpdesk trong giờ hành chính đã được cung cấp đầy đủ và chính xác, không thiếu chi tiết quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Nội dung rõ ràng, dễ hiểu và đầy đủ thông tin cần thiết để người dùng biết được số máy lẻ của hotline IT Helpdesk."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Để yêu cầu cài đặt phần mềm mới, tôi cần tạo ticket trên project Jira nào?",
+      "agent_response": "Để yêu cầu cài đặt phần mềm mới, bạn cần tạo ticket trên project Jira IT-SOFTWARE.",
+      "latency": 5.350545134999265,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn khớp với đáp án chuẩn (Ground Truth). Thông tin được cung cấp chính xác, không có thiếu sót hoặc sai sót nào. Việc sử dụng từ ngữ và cách diễn đạt cũng rõ ràng và dễ hiểu, đáp ứng tiêu chí của một giám khảo khắt khe."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng rằng để yêu cầu cài đặt phần mềm mới, người dùng cần tạo ticket trên project Jira IT-SOFTWARE. Nó đáp ứng đúng yêu cầu và thông tin cần thiết mà người dùng đang tìm kiếm."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Quyền truy cập Level 1 (Read Only) áp dụng cho đối tượng nào?",
+      "agent_response": "Quyền truy cập Level 1 (Read Only) áp dụng cho tất cả nhân viên mới trong 30 ngày đầu.",
+      "latency": 1.3280297240016807,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Agent trả lời chính xác các ý chính nhưng thiếu từ 'ngày làm việc', điều này có thể ảnh hưởng đến độ chính xác theo đúng tiêu chí khắt khe của yêu cầu. Tuy nhiên, thông tin chung vẫn chính xác, chỉ cần bổ sung thêm chi tiết nhỏ này."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent diễn đạt rõ ràng và chính xác, giữ nguyên ý chính từ đáp án chuẩn. Các thông tin được cung cấp đầy đủ và diễn đạt tốt, nên được chấm điểm cao."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Để được cấp quyền Level 3 (Elevated Access), cần sự phê duyệt của những ai?",
+      "agent_response": "Để được cấp quyền Level 3 (Elevated Access), cần sự phê duyệt của Line Manager, IT Admin và IT Security.",
+      "latency": 1.6970057479993557,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ như đáp án chuẩn. Không có sai sót về thông tin, thiếu sót hoặc diễn đạt. Câu trả lời bao gồm đầy đủ các thực thể quan trọng là Line Manager, IT Admin, và IT Security như yêu cầu."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, đầy đủ và diễn đạt rõ ràng, phù hợp với đáp án chuẩn (Ground Truth)."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Yêu cầu bắt buộc để được cấp quyền Level 4 (Admin Access) là gì?",
+      "agent_response": "Yêu cầu bắt buộc để được cấp quyền Level 4 (Admin Access) là phải hoàn thành training bắt buộc về security policy.",
+      "latency": 1.5309609819996695,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 2.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent chỉ bao gồm một phần của đáp án chuẩn mà không đề cập đến việc cần có sự phê duyệt của IT Manager và CISO. Điều này dẫn đến việc thiếu thông tin quan trọng, khiến yêu cầu hoàn chỉnh không được đáp ứng. Ngoài ra, không có lỗi sai, nhưng cách diễn đạt chưa bao hàm đầy đủ nội dung cần thiết."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đã nêu ra yêu cầu hoàn thành training về security policy, tuy nhiên đã thiếu thông tin quan trọng về việc cần có sự phê duyệt của IT Manager và CISO. Do đó, câu trả lời vẫn chưa đầy đủ mặc dù đã đúng phần nào."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Quy trình escalation cấp quyền tạm thời khẩn cấp có thời hạn tối đa là bao lâu?",
+      "agent_response": "Quy trình escalation cấp quyền tạm thời khẩn cấp có thời hạn tối đa là 24 giờ.",
+      "latency": 1.2692066720010189,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent nêu đúng ý chính về thời hạn tối đa của quyền tạm thời khẩn cấp là 24 giờ. Tuy nhiên, câu trả lời thiếu thông tin về yêu cầu rằng phải được Tech Lead phê duyệt bằng lời, đây là một chi tiết quan trọng theo đáp án chuẩn."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent nêu rõ thời gian tối đa cho quyền tạm thời khẩn cấp là 24 giờ, đáp ứng được ý chính của câu hỏi. Tuy nhiên, nó thiếu thông tin về việc phê duyệt của Tech Lead, khiến cho câu trả lời chưa đầy đủ như Ground Truth."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Trong bao lâu thì quyền truy cập phải được điều chỉnh khi nhân viên chuyển bộ phận?",
+      "agent_response": "Quyền truy cập phải được điều chỉnh trong vòng 3 ngày làm việc khi nhân viên chuyển bộ phận.",
+      "latency": 1.2841242829999828,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và khớp với đáp án chuẩn. Tất cả các thông tin quan trọng như thời gian '3 ngày làm việc' và ngữ cảnh 'khi nhân viên chuyển bộ phận' đều đúng và đầy đủ. Không có thiếu sót hay lỗi sai nào cả."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và diễn đạt rõ ràng giống như đáp án chuẩn. Nó thể hiện đầy đủ thông tin cần thiết và hoàn toàn phù hợp với yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tần suất thực hiện rà soát quyền truy cập (access review) của IT Security là bao lâu?",
+      "agent_response": "Tần suất thực hiện rà soát quyền truy cập (access review) của IT Security là mỗi 6 tháng.",
+      "latency": 1.2103260029980447,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, khớp với đáp án chuẩn. Tất cả thông tin quan trọng như tần suất 'mỗi 6 tháng' và ngữ cảnh về việc 'rà soát quyền truy cập của IT Security' đều được đề cập đầy đủ không sai sót. Cách diễn đạt rõ ràng và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt giống hệt nội dung của đáp án chuẩn. Nó cung cấp thông tin rõ ràng về tần suất rà soát quyền truy cập của IT Security, và không có lỗi nào trong câu trả lời."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Mọi bất thường phát hiện trong quá trình audit phải được báo cáo cho CISO trong vòng bao lâu?",
+      "agent_response": "Mọi bất thường phát hiện trong quá trình audit phải được báo cáo cho CISO trong vòng 24 giờ.",
+      "latency": 2.197653380000702,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, khớp với đáp án chuẩn. Thông tin số giờ được cung cấp đầy đủ, không có lỗi sai hay thiếu sót về mặt thông tin."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn, cung cấp thông tin rõ ràng về thời gian báo cáo bất thường, thể hiện sự chuyên nghiệp và chính xác."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Dự án Jira nào được sử dụng để tạo các yêu cầu cấp quyền truy cập?",
+      "agent_response": "Dự án Jira được sử dụng để tạo các yêu cầu cấp quyền truy cập là project IT-ACCESS.",
+      "latency": 1.7179651990009006,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác so với đáp án chuẩn. Agent đề cập đúng Jira project là IT-ACCESS và diễn đạt rõ ràng về việc dự án này được sử dụng để tạo các yêu cầu cấp quyền truy cập. Không thiếu sót thông tin hoặc chi tiết quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt đúng câu hỏi. Agent đã cung cấp thông tin cụ thể về dự án Jira là 'project IT-ACCESS', tương ứng với đáp án chuẩn. Cách diễn đạt rõ ràng và dễ hiểu, đáp ứng đúng yêu cầu của câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Hạn chót để gửi yêu cầu hoàn tiền sau khi xác nhận đơn hàng là khi nào?",
+      "agent_response": "Hạn chót để gửi yêu cầu hoàn tiền sau khi xác nhận đơn hàng là trong vòng 7 ngày làm việc.",
+      "latency": 1.3533253300010983,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent trả lời được ý chính là thời hạn gửi yêu cầu hoàn tiền trong vòng 7 ngày làm việc, phù hợp với Ground Truth. Tuy nhiên, câu trả lời của Agent thiếu cụ thể chi tiết 'kể từ thời điểm xác nhận đơn hàng', điều này làm mất đi một phần ngữ cảnh quan trọng."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent cung cấp thông tin chính xác về hạn chót để gửi yêu cầu hoàn tiền, hoàn toàn tương đương với nội dung trong đáp án chuẩn. Cách diễn đạt rõ ràng và dễ hiểu, giúp cho người dùng dễ dàng nắm bắt thông tin cần thiết."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sản phẩm thuộc danh mục nào thì không được áp dụng chính sách hoàn tiền?",
+      "agent_response": "Sản phẩm thuộc danh mục hàng kỹ thuật số (license key, subscription) không được áp dụng chính sách hoàn tiền.",
+      "latency": 1.2767228140000952,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và giống với đáp án chuẩn. Không thiếu bất kỳ thông tin quan trọng nào, tất cả các chi tiết như 'danh mục hàng kỹ thuật số', 'license key', và 'subscription' đều được đề cập đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đầy đủ thông tin theo yêu cầu của câu hỏi. Nó lặp lại nội dung của đáp án chuẩn nhưng không làm giảm giá trị thông tin, giúp người dùng hiểu chính xác về chính sách hoàn tiền."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Các đơn hàng mua trong chương trình nào thì không được hoàn tiền?",
+      "agent_response": "Các đơn hàng không được hoàn tiền bao gồm:\n- Sản phẩm thuộc danh mục hàng kỹ thuật số (license key, subscription).\n- Đơn hàng đã áp dụng mã giảm giá đặc biệt theo chương trình khuyến mãi Flash Sale.\n- Sản phẩm đã được kích hoạt hoặc đăng ký tài khoản.",
+      "latency": 2.002642719002324,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Agent có đề cập đúng đến đơn hàng đã áp dụng mã giảm giá đặc biệt theo chương trình Flash Sale, nhưng đã bổ sung thêm các thông tin không có trong đáp án chuẩn như sản phẩm kỹ thuật số và sản phẩm đã kích hoạt. Điều này làm cho câu trả lời thiếu sự chính xác 100% và có sự dư thừa thông tin so với yêu cầu."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent gần đúng với thông tin trong Ground Truth, đặc biệt là phần đề cập đến đơn hàng đã áp dụng mã giảm giá đặc biệt theo chương trình Flash Sale. Tuy nhiên, phần thông tin bổ sung về các sản phẩm kỹ thuật số và sản phẩm đã được kích hoạt không nằm trong câu hỏi, dù có thể hữu ích, nhưng không cần thiết để trả lời câu hỏi cụ thể này. Nhìn chung, câu trả lời rõ ràng và đầy đủ, nhưng vẫn có thể được cải thiện bằng cách tập trung hơn vào yêu cầu của câu hỏi."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Nếu chọn nhận store credit thay cho tiền mặt, giá trị nhận được là bao nhiêu?",
+      "agent_response": "Nếu chọn nhận store credit thay cho tiền mặt, giá trị nhận được là 110% so với số tiền hoàn.",
+      "latency": 2.2844685039999604,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, không thiếu thông tin và phù hợp với đáp án chuẩn. Cách diễn đạt rõ ràng và chuyên nghiệp, đáp ứng tất cả các tiêu chí được đưa ra."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent diễn đạt lại chính xác ý chính của đáp án chuẩn, chỉ khác về cách diễn đạt nhưng vẫn giữ nguyên nội dung và ý nghĩa. Đây là thông tin rõ ràng và thiết thực cho người dùng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "CS Agent có bao nhiêu thời gian để xem xét yêu cầu hoàn tiền của khách hàng?",
+      "agent_response": "CS Agent có 1 ngày làm việc để xem xét yêu cầu hoàn tiền của khách hàng.",
+      "latency": 1.7517396590010321,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với đáp án chuẩn, không thiếu sót thông tin và diễn đạt rõ ràng, chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và diễn đạt rõ ràng, đúng với thông tin trong đáp án chuẩn. Nó cung cấp thông tin cần thiết về thời gian mà CS Agent có để xem xét yêu cầu hoàn tiền, tức là 1 ngày làm việc."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Bộ phận Finance sẽ xử lý việc hoàn tiền trong khoảng thời gian nào?",
+      "agent_response": "Bộ phận Finance sẽ xử lý việc hoàn tiền trong khoảng thời gian 3-5 ngày làm việc.",
+      "latency": 1.9620665180009382,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác, cung cấp đầy đủ thông tin với con số quan trọng là 3-5 ngày làm việc, phù hợp với đáp án chuẩn. Cách diễn đạt cũng rõ ràng và chuyên nghiệp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và trùng khớp với đáp án chuẩn. Thông tin được truyền đạt rõ ràng và dễ hiểu, giúp người dùng nắm bắt được thời gian hoàn tiền một cách hiệu quả."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Đơn hàng đặt vào tháng 1 năm 2026 sẽ áp dụng chính sách hoàn tiền nào?",
+      "agent_response": "Đơn hàng đặt vào tháng 1 năm 2026 sẽ áp dụng theo chính sách hoàn tiền phiên bản 3, vì chính sách mới chỉ có hiệu lực từ ngày 01/02/2026.",
+      "latency": 1.3400612299992645,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ so với đáp án chuẩn. Agent đã chỉ rõ rằng chính sách hoàn tiền phiên bản 3 được áp dụng do chính sách mới có hiệu lực từ ngày 01/02/2026, tương ứng với thông tin trong Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent chính xác và hoàn toàn phù hợp với đáp án chuẩn. Nó không chỉ nêu rõ chính sách hoàn tiền áp dụng (phiên bản 3) mà còn giải thích lý do tại sao chính sách đó được áp dụng, giúp người dùng hiểu rõ hơn về thông tin này. Văn phong rõ ràng và dễ hiểu."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Điều kiện về tình trạng sản phẩm để được hoàn tiền là gì?",
+      "agent_response": "Điều kiện về tình trạng sản phẩm để được hoàn tiền là sản phẩm phải bị lỗi do nhà sản xuất, không phải do người dùng, và đơn hàng chưa được sử dụng hoặc chưa bị mở seal. Yêu cầu hoàn tiền cũng phải được gửi trong vòng 7 ngày làm việc kể từ thời điểm xác nhận đơn hàng.",
+      "latency": 2.342692023001291,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 3.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 3,
+            "reasoning": "Câu trả lời của Agent đã nêu được các ý chính là sản phẩm phải bị lỗi do nhà sản xuất, chưa sử dụng, và chưa mở seal. Tuy nhiên, Agent đã bổ sung thông tin không có trong đáp án chuẩn về thời gian yêu cầu hoàn tiền phải trong vòng 7 ngày và đơn hàng chưa được sử dụng, điều này không được đề cập trong Ground Truth. Mặc dù vậy, những thông tin bổ sung không thay đổi ý nghĩa chính và không mâu thuẫn với Ground Truth. Vì thế, câu trả lời trả về được ý chính nhưng có phần dư thừa thông tin."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã đề cập đến các điều kiện cần có để được hoàn tiền như sản phẩm phải bị lỗi do nhà sản xuất, không mở seal, và chưa được sử dụng. Tuy nhiên, câu trả lời cũng bổ sung thêm thông tin về thời hạn gửi yêu cầu hoàn tiền trong vòng 7 ngày. Điều này làm tăng tính ứng dụng của câu trả lời, nhưng có thể không cần thiết theo yêu cầu của câu hỏi. Tổng quan, câu trả lời gần giống Ground Truth, có đầy đủ nội dung cần thiết nhưng không hoàn toàn đúng về độ chính xác của từng điểm."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể xin cấp quyền Level 4 mà không cần tham gia buổi training về security được không? Vì tôi đã có kinh nghiệm rồi.",
+      "agent_response": "Không, bạn không thể xin cấp quyền Level 4 mà không tham gia buổi training về security. Training về security policy là yêu cầu bắt buộc để được cấp quyền này.",
+      "latency": 2.781342342001153,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với đáp án chuẩn GT. Agent đã nêu rõ rằng training về security policy là yêu cầu bắt buộc đối với quyền Level 4. Không có thông tin nào thiếu sót hoặc sai lệch so với Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và rõ ràng, xác nhận rằng training về security policy là yêu cầu bắt buộc để được cấp quyền Level 4. Cách diễn đạt mạch lạc và đủ thông tin cần thiết."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi đã mua hàng được 10 ngày nhưng do bận đi công tác nên giờ mới yêu cầu hoàn tiền, công ty có ngoại lệ nào không?",
+      "agent_response": "Theo quy định, yêu cầu hoàn tiền phải được gửi trong vòng 7 ngày kể từ thời điểm xác nhận đơn hàng. Do bạn đã mua hàng được 10 ngày, nên không đủ điều kiện để yêu cầu hoàn tiền. Tôi không biết có ngoại lệ nào cho trường hợp của bạn.",
+      "latency": 1.8235663529994781,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent có ý đúng về thời gian cần gửi yêu cầu hoàn tiền, tuy nhiên thông tin về '7 ngày kể từ thời điểm xác nhận đơn hàng' không chính xác so với GT. Agent thiếu chi tiết về việc tài liệu không đề cập đến ngoại lệ cho trường hợp gửi muộn do lý do cá nhân. Điều này dẫn đến việc thiếu thông tin quan trọng mà GT đã cung cấp."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã nêu rõ quy định về thời gian gửi yêu cầu hoàn tiền và khẳng định rằng người dùng không đủ điều kiện do đã quá thời hạn 7 ngày. Mặc dù thiếu thông tin về việc có ngoại lệ hay không, nhưng câu trả lời vẫn chính xác và diễn đạt tốt."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Quản lý của tôi đồng ý cho tôi làm remote 4 ngày/tuần để tiện chăm sóc gia đình, quy định công ty có cho phép không?",
+      "agent_response": "Quy định công ty chỉ cho phép nhân viên làm remote tối đa 2 ngày/tuần sau khi đã qua probation period. Do đó, việc quản lý của bạn đồng ý cho bạn làm remote 4 ngày/tuần là không phù hợp với quy định hiện tại của công ty.",
+      "latency": 6.317992455002241,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 3.0,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent chứa một thông tin chính xác rằng chính sách remote chỉ cho phép tối đa 2 ngày/tuần. Tuy nhiên, Agent đã đưa vào thông tin sai lệch về việc 'sau khi đã qua probation period', điều này không có trong Ground Truth. Ngoài ra, câu trả lời còn thiếu thông tin chi tiết về các ngày onsite bắt buộc là Thứ 3 và Thứ 5, điều này làm giảm độ chính xác và đầy đủ của câu trả lời so với Đáp án chuẩn."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã cung cấp thông tin chính xác về quy định công ty, tuy nhiên có một sự thiếu sót nhỏ khi không đề cập đến việc có các ngày onsite bắt buộc là Thứ 3 và Thứ 5 như trong Ground Truth. Dù vậy, câu trả lời vẫn rõ ràng và giúp ích cho người dùng."
+          }
+        },
+        "status": "conflict"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi có thể sử dụng phần mềm VPN khác thay cho Cisco AnyConnect để truy cập mạng nội bộ được không?",
+      "agent_response": "Không, bạn không thể sử dụng phần mềm VPN khác thay cho Cisco AnyConnect để truy cập mạng nội bộ. Kết nối VPN là bắt buộc khi làm việc với hệ thống nội bộ.",
+      "latency": 1.7287587499995425,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã nêu được ý chính rằng không thể dùng VPN khác ngoài Cisco AnyConnect và kết nối VPN là bắt buộc. Tuy nhiên, câu trả lời của Agent thiếu chi tiết về lý do chính sách quy định bắt buộc sử dụng Cisco AnyConnect, như trong đáp án chuẩn. Do đó, câu trả lời chưa hoàn toàn xuất sắc nhưng vẫn rất gần mức độ chính xác và đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đồng nhất với đáp án chuẩn, cung cấp thông tin rõ ràng về chính sách sử dụng Cisco AnyConnect và yêu cầu bắt buộc về kết nối VPN khi làm việc với hệ thống nội bộ."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi đang cần xử lý gấp một task Level 3, IT Admin có thể cấp quyền ngay cho tôi mà không cần đợi IT Security review được không?",
+      "agent_response": "Không, IT Admin không thể cấp quyền cho bạn mà không cần đợi IT Security review. Quy trình yêu cầu cấp quyền Level 3 cần có sự phê duyệt của Line Manager, IT Admin và IT Security.",
+      "latency": 1.6509245659981389,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 5.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và phù hợp với đáp án chuẩn. Agent nêu rõ rằng IT Admin không thể cấp quyền mà không qua IT Security review và liệt kê đủ ba thành phần cần sự phê duyệt: Line Manager, IT Admin, và IT Security. Câu trả lời không thiếu sót bất kỳ chi tiết quan trọng nào."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 5,
+            "reasoning": "Câu trả lời của Agent hoàn toàn chính xác và đầy đủ thông tin. Nó nhấn mạnh rằng IT Admin không thể cấp quyền mà không có sự phê duyệt từ IT Security, và cũng nêu rõ rằng quy trình yêu cầu sự phê duyệt từ Line Manager, IT Admin và IT Security. Hành văn mạch lạc và rõ ràng, giúp người dùng hiểu rõ quy trình cần thiết."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Sản phẩm Flash Sale của tôi bị lỗi nhà sản xuất và vẫn còn nguyên seal, tôi có được hoàn tiền không?",
+      "agent_response": "Nếu sản phẩm Flash Sale của bạn bị lỗi do nhà sản xuất, vẫn còn nguyên seal và bạn gửi yêu cầu trong vòng 7 ngày làm việc kể từ thời điểm xác nhận đơn hàng, bạn có quyền yêu cầu hoàn tiền.",
+      "latency": 3.6859333499996865,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.5
+        }
+      },
+      "judge": {
+        "final_score": 1.5,
+        "agreement_rate": 0.5,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không đúng với thông tin từ Ground Truth. Ground Truth chỉ ra rằng các sản phẩm áp dụng mã giảm giá Flash Sale nằm trong danh mục ngoại lệ và không được hoàn tiền, bất kể tình trạng sản phẩm. Agent đưa thông tin sai lệch rằng người dùng có thể yêu cầu hoàn tiền nếu sản phẩm còn nguyên seal và yêu cầu trong vòng 7 ngày, điều này không đúng với điều kiện nêu ra bởi Ground Truth."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 2,
+            "reasoning": "Câu trả lời của Agent có ý đúng rằng sản phẩm bị lỗi có thể được hoàn tiền nếu điều kiện nhất định được đáp ứng. Tuy nhiên, điểm thiếu sót lớn là không đề cập đến thực tế rằng các đơn hàng Flash Sale nằm trong danh mục ngoại lệ không được hoàn tiền, như đã nêu trong Ground Truth. Điều này làm cho thông tin không chính xác và thiếu sót một cách nghiêm trọng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Đồng nghiệp của tôi nhờ tôi cho mượn tài khoản Level 1 để xem tài liệu trong 1 giờ, tôi có thể chia sẻ mật khẩu không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 3.1741966519985,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent 'Tôi không biết' hoàn toàn không liên quan đến câu hỏi và không đưa ra bất kỳ thông tin nào về việc có nên chia sẻ mật khẩu hay không, trong khi đáp án chuẩn yêu cầu nêu rõ ràng rằng việc chia sẻ mật khẩu vi phạm các nguyên tắc bảo mật."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không cung cấp thông tin gì liên quan đến khía cạnh bảo mật cũng như chính sách tài khoản, vì vậy nó hoàn toàn không có ích cho người dùng."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Tôi bị mất laptop cá nhân được công ty cấp, tôi có thể mượn máy của bạn để làm việc mà không cần báo IT không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 2.728478011998959,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent 'Tôi không biết' không cung cấp bất kỳ thông tin nào liên quan đến quy trình báo cáo laptop bị mất, không nêu rõ rủi ro bảo mật, và hoàn toàn không khớp với đáp án chuẩn. Không có số liệu, chi tiết hay thực thể nào được đề cập đến, do đó không thể chấp nhận được."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent không giúp ích cho người dùng và hoàn toàn không liên quan đến yêu cầu. Nó không cung cấp thông tin cần thiết về quy trình báo cáo laptop mất hoặc vấn đề bảo mật, dẫn đến việc không đáp ứng được câu hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    },
+    {
+      "test_case": "Sự cố P1 xảy ra lúc 11 giờ đêm, tôi có thể đợi đến 8 giờ sáng mai mới tạo ticket để xử lý không?",
+      "agent_response": "Không, bạn không nên đợi đến 8 giờ sáng mai để tạo ticket cho sự cố P1. Theo quy trình, ticket P1 cần được phản hồi trong vòng 15 phút và xử lý trong 4 giờ. Việc chậm trễ có thể ảnh hưởng đến thời gian khắc phục sự cố.",
+      "latency": 3.302302182000858,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 1.0
+        }
+      },
+      "judge": {
+        "final_score": 4.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã đáp ứng hầu hết các yêu cầu đề ra. Agent đã nêu rõ ràng rằng không nên đợi đến 8 giờ sáng để tạo ticket vì ticket P1 cần phản hồi trong vòng 15 phút. Tuy nhiên, câu trả lời của Agent còn thiếu thông tin về việc có hotline on-call 24/7 để tiếp nhận xử lý ngay lập tức, và việc xử lý trong 4 giờ không được đề cập trong Ground Truth. Dù chi tiết về thời gian xử lý 4 giờ là không có trong GT, nó không ảnh hưởng nhiều đến định hướng tổng thể của quy trình xử lý sự cố P1. Do đó, câu trả lời này rất gần với đáp án chuẩn nhưng chưa hoàn toàn đầy đủ."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 4,
+            "reasoning": "Câu trả lời của Agent đã đề cập đúng rằng không nên chờ đợi đến 8 giờ sáng mà cần phản hồi ngay cho sự cố P1. Ngoài ra, Agent cũng giải thích rõ quy trình phản hồi và khắc phục sự cố, cho thấy sự ứng dụng cao của thông tin. Tuy nhiên, có thể làm rõ hơn về việc có hotline on-call 24/7 như trong Ground Truth để hoàn thiện hơn."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "pass"
+    },
+    {
+      "test_case": "Tôi là contractor làm việc lâu năm, tôi có thể yêu cầu cấp quyền truy cập vĩnh viễn không cần ngày hết hạn không?",
+      "agent_response": "Tôi không biết.",
+      "latency": 1.5183945870012394,
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevancy": 1.0,
+        "retrieval": {
+          "hit_rate": 1.0,
+          "mrr": 0.3333333333333333
+        }
+      },
+      "judge": {
+        "final_score": 1.0,
+        "agreement_rate": 1.0,
+        "individual_results": {
+          "gpt-4o-strict": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent là 'Tôi không biết.' không cung cấp bất kỳ thông tin nào liên quan đến câu hỏi và không đúng với đáp án chuẩn. Theo đáp án chuẩn, cần phải nói rõ rằng quyền truy cập không thể được cấp vĩnh viễn vì sẽ bị thu hồi khi hợp đồng hết hạn hoặc khi nhân viên nghỉ việc/chuyển bộ phận. Thiếu hoàn toàn thông tin liên quan."
+          },
+          "gpt-4o-mini-helpful": {
+            "score": 1,
+            "reasoning": "Câu trả lời của Agent hoàn toàn không cung cấp thông tin nào liên quan đến câu hỏi của người dùng. Họ không đưa ra được câu trả lời đúng hay thảo luận về quy trình cấp quyền truy cập vĩnh viễn, do đó không giúp ích cho người hỏi."
+          }
+        },
+        "status": "consensus"
+      },
+      "status": "fail"
+    }
+  ]
+}
